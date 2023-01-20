@@ -48,10 +48,15 @@ color:  blue
 a:focus {
 color: blue;
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .container {
 
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin: 0 auto;
 }
 @media screen and (min-width:480px) {
@@ -119,10 +124,15 @@ color: blue;
 @media screen and (max-width:767.98px) {
     .head-set {
     display: flex;
-    width: 100vw;
+    width: 428px;
     align-items: center;
     justify-content: space-between;
 }
+}
+@media screen and (max-width:320px) {
+    .head-set {
+        width:320px;
+    }
 }
 @media screen and (min-width:1200px) {
     .head-set {
@@ -451,7 +461,7 @@ font-family: 'Roboto-regular';
     @media screen and (min-width:1200px) {
         .section-about {
             padding-top: 120px;
-            padding-bottom: 120px;
+            padding-bottom: 0px;
         }
         
     }
@@ -1262,8 +1272,6 @@ cursor: pointer;
 }
 
 .menu-toggle {
-  min-height: 40px;
-  min-width: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
