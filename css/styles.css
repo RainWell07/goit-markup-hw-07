@@ -61,12 +61,12 @@ img {
 }
 @media screen and (min-width:480px) {
     .container {
-        width: 426px;
+        width: 428px;
     } 
 }
 @media screen and (min-width:768px) {
     .container {
-        width: 767px;
+        width: 768px;
     } 
 }
 @media screen and (min-width:1200px) {
@@ -124,7 +124,6 @@ img {
 @media screen and (max-width:767.98px) {
     .head-set {
     display: flex;
-    width: 428px;
     align-items: center;
     justify-content: space-between;
 }
@@ -920,8 +919,8 @@ text-align: center;
         justify-content: center;
         border-radius: 50%;
         border: none;
-        width: 40px;
-        height: 40px;
+        width: 22px;
+        height: 22px;
         transition-property: background-color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
